@@ -1,0 +1,202 @@
+button , span {
+    cursor: pointer;
+  }
+  
+  
+  .wallet-style {
+    height: 100vh;
+  }
+  
+  @media screen and ( min-width : 952px ) {
+  
+    body {
+      background-image: linear-gradient(to right, white, rgb(77, 197, 47));
+    }
+  
+  
+    .header-container {
+      align-items: center;
+      background-color: white;
+      border-bottom: 2px solid seagreen;
+      border-radius: 0 0 8px 8px;
+      box-shadow: 0 4px 6px rgba(0, 100, 0, 0.6);
+      display: flex;
+      justify-content: space-around;
+      padding: 10px;
+    }
+  
+    .header-container img {
+      height: 70px;
+      width: 200px;
+    }
+  
+    span:hover , .currency-container:hover {
+      color: seagreen;
+    }
+  
+    .wallet-container {
+      align-items: center;
+      background-color: rgb(21, 21, 21);
+      color: rgb(175, 177, 180);
+      display: flex;
+      flex-flow: row wrap;
+      font-size: 19px;
+      justify-content: center;
+      margin: 20px 0;
+      padding: 20px;
+    }
+  
+    .wallet-container input {
+      border: none;
+      border-radius: 6px;
+      margin: 10px 15px;
+      padding: 10px;
+    }
+  
+    .wallet-container input:focus {
+      outline: none;
+    }
+  
+    select {
+      background-color: rgb(228, 227, 233);
+      border: none;
+      border-radius: 6px;
+      height: 35px;
+      margin: 5px 15px;
+      padding: 5px;
+    }
+  
+    select:focus {
+      outline: none;
+    }
+  
+    .wallet-style {
+      background-image: linear-gradient(to right, white, rgb(77, 197, 47));
+      margin: 0;
+    }
+  
+    .add-button {
+      background-color: rgb(84, 143, 84);
+      border: none;
+      border-radius: 6px;
+      font-size: 13px;
+      font-weight: 600;
+      padding: 7px;
+    }
+  
+    .add-button:hover {
+      background-color: rgb(49, 173, 49);
+      transition: 0.5s;
+    }
+  }
+  
+  @media screen and ( max-width : 952px ) {
+  
+    .header-container {
+      align-items: center;
+      background-color: white;
+      border-bottom: 2px solid seagreen;
+      border-radius: 0 0 8px 8px;
+      box-shadow: 0 4px 6px rgba(0, 100, 0, 0.6);
+      display: inline-block;
+      justify-content: space-around;
+      padding: 10px;
+      width: 932px;
+    }
+  
+    .header-container img {
+      height: 70px;
+      left: 200px;
+      position: relative;
+      top: 6px;
+      width: 195px;
+    }
+  
+    span:hover , .currency-container:hover {
+      color: seagreen;
+    }
+  
+    #user {
+      bottom: 18px;
+      left: 70px;
+      position: relative;
+    }
+  
+    #user-email {
+      bottom: 19px;
+      left: 270px;
+      position: relative;
+    }
+  
+    #total-field {
+      bottom: 8px;
+      left: 584.5px;
+      position: relative;
+    }
+  
+    #currency {
+      bottom: 8px;
+      left: 588px;
+      position: relative;
+  
+    }
+  
+    .wallet-container {
+      align-items: center;
+      background-color: rgb(21, 21, 21);
+      color: rgb(175, 177, 180);
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+      margin: 20px 0;
+      padding: 20px;
+    }
+  
+  
+    .wallet-container input {
+      border: none;
+      border-radius: 6px;
+      margin: 10px 15px;
+      padding: 10px;
+    }
+  
+    .wallet-container input:focus {
+      outline: none;
+    }
+  
+    select {
+      background-color: rgb(228, 227, 233);
+      border: none;
+      border-radius: 6px;
+      height: 35px;
+      margin: 5px 15px;
+      padding: 5px;
+    }
+  
+    select:focus {
+      outline: none;
+    }
+  
+    .wallet-style {
+      background-image: linear-gradient(to right, white, rgb(77, 197, 47));
+      height: 100vh;
+      margin: 0;
+      min-width: 950px;
+      overflow-y: auto;
+    }
+  
+    .add-button {
+      background-color: rgb(84, 143, 84);
+      border: none;
+      border-radius: 6px;
+      font-size: 13px;
+      font-weight: 600;
+      padding: 7px;
+    }
+  
+    .add-button:hover {
+      background-color: rgb(49, 173, 49);
+      transition: 0.5s;
+    }
+  }
+  

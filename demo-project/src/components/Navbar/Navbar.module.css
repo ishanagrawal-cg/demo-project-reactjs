@@ -1,0 +1,60 @@
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.4rem;
+  /* padding: 1.2rem; */
+  background: var(--primary-color);  
+  border-radius: 10px;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+.navbar__logo {
+  font-size: 40px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.navbar__wagon {
+  background: #fff;
+  width: 180px;
+  border: none;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.navbar__wagon:hover {
+  opacity: 0.75;
+}
+
+.wagon__title {
+  font-size: 30px;
+  font-weight: bold;  
+  color: #A1CAF1; /*DC*/
+}
+
+.wagon__image {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+}
+
+.wagon__counter {
+  height: 40px;
+  width: 40px;  
+  border: 1px solid #0D98BA; /*SC*/
+  border-radius: 50%;
+  color: var(--dark-color);
+  background: #A1CAF1; /*LC*/
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
